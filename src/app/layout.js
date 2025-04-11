@@ -37,7 +37,7 @@ export const metadata = {
   openGraph: {
     title: "Pizzaria Bella Massa - A melhor pizza de Guarulhos",
     description: "Ingredientes frescos, tradição italiana e o melhor atendimento.",
-    url: "https://tudominio.com",
+    url: "https://restaurant-landing.vercel.app", // Actualiza con la URL que te dé Vercel
     siteName: "Pizzaria Bella Massa",
     images: [
       {
