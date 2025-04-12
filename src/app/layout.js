@@ -12,7 +12,7 @@ const playfair = Playfair_Display({
 });
 
 export const metadata = {
-  metadataBase: new URL('https://restauran-landing.vercel.app'),
+  metadataBase: new URL('https://restauran-landing-k5wq.vercel.app'),
   title: "Pizzaria Bella Massa - A melhor pizza de Guarulhos",
   description:
     "Descubra os sabores autênticos da Pizzaria Bella Massa. Ingredientes frescos, tradição italiana e o melhor atendimento de Guarulhos.",
@@ -36,7 +36,7 @@ export const metadata = {
   openGraph: {
     title: "Pizzaria Bella Massa - A melhor pizza de Guarulhos",
     description: "Ingredientes frescos, tradição italiana e o melhor atendimento.",
-    url: "/opengraph-pizza.png",
+    url: "https://restauran-landing-k5wq.vercel.app",
     siteName: "Pizzaria Bella Massa",
     images: [
       {
