@@ -1,18 +1,23 @@
 "use client";
 import { motion } from "framer-motion";
+import Image from "next/image";
 import { playfair } from "../../ui/fonts";
 import { inter } from "../../ui/fonts";
 
 export default function Hero() {
   return (
     <section className="relative min-h-screen w-full flex items-center justify-start overflow-hidden" id="/">
+      <div className="absolute inset-0">
+        <Image
+          src="/espagueti.webp" // Convierte tu SVG a WebP
+          alt="Fondo de espagueti"
+          fill
+          priority
+          className="object-cover object-right md:object-center"
+          sizes="100vw"
+        />
+      </div>
 
-      <div
-        className="absolute inset-0 bg-cover bg-right md:bg-center"
-        style={{ backgroundImage: "url('/espagueti.svg')" }}
-      ></div>
-
-   
       <div className="absolute inset-0 bg-gradient-to-r from-black via-black/80 to-transparent z-0" />
 
 
